@@ -1,5 +1,5 @@
 const CACHE_NAME = "ficon";
-const urlsToCache = ["/", "/index.html", "style.css", "script.js", "/icons/icon-192.png", "/icons/icon-512.png"];
+const urlsToCache = ["/", "/index.html", "/style.css", "/script.js", "/icons/icon-192.png", "/icons/icon-512.png"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
